@@ -17,6 +17,6 @@ end
  # board_array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 #end
 
-def update_array_at_with(array, index, value)
+def move(array, index, value = "X")
   array[index] = value
 end
