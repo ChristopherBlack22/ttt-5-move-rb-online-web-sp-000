@@ -13,4 +13,6 @@ end
 
 def move(board_array, "#{index}", players_character = "X" )
   
+  
+  board_array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 end
