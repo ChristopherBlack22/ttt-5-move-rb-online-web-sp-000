@@ -17,3 +17,10 @@ end
  # board_array = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 #end
 
+def number_adder(n)
+  n += 10
+end
+ 
+def array_adder(a)
+  a << "new thing at the end of the array"
+end
