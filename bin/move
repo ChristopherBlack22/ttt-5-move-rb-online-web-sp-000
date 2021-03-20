@@ -7,5 +7,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input = gets.strip
 input_to_index(input)
-move(board, "#{input_to_index}", players_character = "X")
+move(board, "#{input_to_index}", players_character)
 display_board
